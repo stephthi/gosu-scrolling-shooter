@@ -1,22 +1,22 @@
-# gosu-galaxian
+# gosu-scrolling-shooter
 ## Project for the speed sprint workshop [first presented at Toronto Ruby Hack Night, January 28, 2016]
 
 This project, based on the gosu-examples project, has been selected to be a part of the speed-sprint workshop.
 The speed-sprint project can be found here: https://github.com/k00ka/speed-sprint.
 
 # User Stories
-1. block pattern of enemies + levels + scoring
+1. Shoot stars to score points + collisions with stars kill you
 
-  The enemies are too disorderly. Make the enemies move as a large group (think *Galaxian* or *Space Invaders*). After you kill this block, a new block should appear. The user should also get a scoring bonus with each block cleared.
+  Players report collecting stars in lame. Players should have to shoot the stars to score points. Colliding with stars should also kill the player. Player should also see how many lives they have.
 
-2. diving two at a time
+2. New life every 50 points + enemy “obstacles” that kill you
 
-  The user should see 2 enemies dive off from the main block and fall to the bottom of the window. The user should die if he collides with a falling enemy. Enemies that fall off screen should return to their block.
+  Players should receive a new life for every 50 stars destroyed. But more lives don't come cheaply. New obstacles should appear that can collide with the player.
 
-3. sound (shots, collisions, movement, diving)
+3. Shields with power limit and recharge
 
-  We need some SFX to jazz this game up! Use some fun sounds for various game events.
+  Stars and obstacles are hard to dodge. Let players have a shield they can activate for a short duration that prevents them from exploding.
 
-4. increased speed and frequency of diving
+4. Enemies shoot back
 
-  The game needs to get more challenging. More diving enemies, more frequently, more more more! Maybe diving enemies could drop some bombs as they fall as well.
+  Add some new enemy types that appear and shoot at the player. Don't make them too smart!
